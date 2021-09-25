@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+<div class="intro">
+    <img src="https://via.placeholder.com/150" width="200px" height="200px" alt="avatar" />
+    <h1>Eric Feng</h1>
+    <h3>Web Developer At NWPU</h3>
+    <p>{{ Pause and ponder }}</p>
+</div>
+
+<div class="about-grid">
+    <div class="i-am">
+        <h3>I am</h3>
+        <ul class="about-list">
+            <li>An engineer</li>
+            <li>A reader</li>
+            <li>A hobby cook</li>
+        </ul>
+    </div>
+    <div class="i-like">
+        <h3>I like to</h3>
+        <ul class="about-list">
+            <li>Meet new people</li>
+            <li>Play guitar</li>
+            <li>Eat Icecream</li>
+        </ul>
+    </div>
+</div>
+
+
+<div>
+    <h3 class="projects-heading">My Projects</h3>
+    <div class="projects-grid">
+        <img class="project-image" src="https://via.placeholder.com/300"/>
+        <img class="project-image" src="https://via.placeholder.com/300"/>
+        <img class="project-image" src="https://via.placeholder.com/300"/>
+        <img class="project-image" src="https://via.placeholder.com/300"/>
+    </div>
+</div>
+
+
+<div class="links-and-contact">
+    <div class="links">
+        <h3>Links</h3>
+        <ul class="links-list">
+        <li>
+            <a href="https://github.com/<user>">Github</a>
+            </li>
+            <li>
+            <a href="https://weibo.com/<user>">Weibo</a>
+            </li>
+            <li>
+            <a href="https://linkedin.com/in/<user>">Linkedin</a>
+            </li>
+        </ul>
+    </div>
+  <!-- contact form -->
+  <div>
+        <form action="#">
+            <label for="email">
+            Email: <input type="email" id="email" placeholder="Enter your email" /> 
+            </label>
+            <label for="message">
+            Message: <textarea id="message">Your Message</textarea>
+            </label>
+            <input type="submit" valid="Send Message" id="submit-button"/>
+        </form>
+    </div>
+</div>
+
+</div>
+<script src="jquery.slim.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
